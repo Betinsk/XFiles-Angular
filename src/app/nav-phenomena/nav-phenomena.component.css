@@ -1,0 +1,42 @@
+#menu-phenomena {
+    color: white;
+    float: right;
+    width: 170px;
+    margin: 10px;
+}
+
+#menu-phenomena ul {
+    padding: 10px;
+
+}
+
+#menu-phenomena li:hover {
+    opacity: 0.1; 
+}
+
+#menu-phenomena li {
+    padding: 20px;
+    background: black;
+    margin-bottom: 2px;
+    border-radius: 10px;
+
+}
+
+#menu-phenomena li a{
+    color: white;
+   text-decoration: none;
+   font-size: 1.2em;
+   font-family: 'monster';
+   
+}
+
+#menu-phenomena li:hover{
+
+}
+
+#menu-phenomena h3 {
+    color: white;
+    margin-left: 25px;
+    font-size: 1.5em;
+   font-family: 'monster';
+}
