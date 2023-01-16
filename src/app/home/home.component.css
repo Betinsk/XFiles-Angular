@@ -1,0 +1,151 @@
+
+      /*  @font-face {
+            font-family: 'monster';
+            src: url('Melted Monster.ttf') format('truetype');
+          } */
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: rgb(49, 47, 47) repeat-y; 
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+
+        #container {
+            width: 900px;
+            height: 1400px;
+            margin: auto;
+            background: black /* url("../images/f0FH9Er.webp") */;
+            border-radius: 10px;
+        }
+
+        #topo {
+            background: linear-gradient(rgb(0, 0, 0), black, rgb(187, 187, 187) );
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            
+        }
+
+        #topo h1 {
+            font-family: 'monster';
+            text-align: center;
+            color: white;
+        }
+
+        #menu-navegacao{
+            height: 60px;
+            margin: 0 10px 10px 10px;
+            background: rgb(63, 60, 60, 0.8);
+            border-radius: 10px;
+        }
+
+        #menu-navegacao ul {
+            padding: 0;
+            list-style: none;
+            margin: 24px 0 200px 260px;
+        }
+
+        #menu-navegacao a:hover {
+            color: rgba(212, 175, 55);
+        }
+
+        #menu-navegacao li {
+            display: inline;
+        }
+
+      #menu-navegacao a {
+            font-family: 'monster';
+            text-decoration: none;
+            color: white;
+            background: black;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #conteudo p {
+            color: white;
+            margin: 25px;
+            text-align: center;
+        }
+
+        #conteudo  {
+            float: left;
+            width: 630px;
+            margin: 10px;
+        }
+
+        #menu-phenomena {
+            color: white;
+            float: right;
+            width: 170px;
+            margin: 10px;
+        }
+        
+        #menu-phenomena ul {
+            padding: 10px;
+
+        }
+
+        #menu-phenomena li:hover {
+            opacity: 0.1; 
+        }
+
+        #menu-phenomena li {
+            padding: 20px;
+            background: black;
+            margin-bottom: 2px;
+            border-radius: 10px;
+
+        }
+
+        #menu-phenomena li a{
+            color: white;
+           text-decoration: none;
+           font-size: 1.2em;
+           font-family: 'monster';
+           
+        }
+
+        #menu-phenomena li:hover{
+        
+        }
+
+        #menu-phenomena h3 {
+            color: white;
+            margin-left: 25px;
+            font-size: 1.5em;
+           font-family: 'monster';
+        }
+
+        video {
+            float: right;
+        }
+
+        #imagem {
+            width: 370px;
+            height: 500px;
+            background: black;
+            margin-left: 270px;
+            
+        
+        }
+
+
+        #divImag  {
+            border: 1px solid red;
+        }
+
+     
+        #imagem-meio img{
+            width: 750px;
+            height: 450px;
+            margin-left: 100px;
+            
+        }
