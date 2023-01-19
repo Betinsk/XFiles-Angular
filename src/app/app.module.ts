@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { NavPhenomenaComponent } from './nav-phenomena/nav-phenomena.component';
+import { RegisterComponent } from './register/register.component';
+import { CharacterComponent } from './character/character.component';
+import { TopoComponent } from './topo/topo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavComponent,
-    NavPhenomenaComponent
+    NavPhenomenaComponent,
+    RegisterComponent,
+    CharacterComponent,
+    TopoComponent
   ],
   imports: [
     BrowserModule,

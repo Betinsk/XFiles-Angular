@@ -3,6 +3,8 @@
     margin: 0 10px 10px 10px;
     background: rgb(63, 60, 60, 0.8);
     border-radius: 10px;
+    background: url("/assets/images/Arquivo-X-quadrinhos-5.jpg") ;
+
 }
 
 #menu-navegacao ul {
@@ -26,4 +28,5 @@
     background: black;
     padding: 10px;
     border-radius: 10px;
+    border: 1px solid rgb(107, 107, 107);
 }

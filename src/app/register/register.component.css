@@ -1,0 +1,84 @@
+
+         @font-face {
+            font-family: 'monster';
+            src: url('src/fonts/Melted Monster.ttf') format('truetype');
+          } 
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: rgb(49, 47, 47) repeat-y; 
+            
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #container {
+            width: 900px;
+            height: 1400px;
+            margin: auto;
+            background: black  url("/assets/images/f0FH9Er.webp") ;
+
+        }
+
+        #topo {
+            background: black;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+
+        #topo h1 {
+            font-family: 'monster';
+            text-align: center;
+            color: white;
+        }
+
+      
+        #formu {
+            border: 1px solid white;
+            height: 650px;
+            margin: 10px;
+        }
+
+        #formu h1{
+            color: white;
+        }
+
+        form, label {
+            font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+
+            color: rgb(253, 252, 252);
+            width: 250px;
+            height: 25px;
+            margin: 5px;
+        }
+
+       input {
+        margin: 0.4px;
+        border: none;
+
+        }
+
+
+        #imagem {
+            width: 370px;
+            height: 500px;
+            background: black;
+            margin-left: 270px;
+        }
+
+
+        #divImag  {
+            border: 1px solid red;
+        }
+
+     
+        #imagem-meio img{
+            width: 750px;
+            height: 450px;
+            margin-left: 100px;
+        }
