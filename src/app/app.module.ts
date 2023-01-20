@@ -9,6 +9,7 @@ import { NavPhenomenaComponent } from './nav-phenomena/nav-phenomena.component';
 import { RegisterComponent } from './register/register.component';
 import { CharacterComponent } from './character/character.component';
 import { TopoComponent } from './topo/topo.component';
+import { Error404Component } from './pages/error404/error404.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TopoComponent } from './topo/topo.component';
     NavPhenomenaComponent,
     RegisterComponent,
     CharacterComponent,
-    TopoComponent
+    TopoComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,
