@@ -7,9 +7,11 @@ import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { NavPhenomenaComponent } from './nav-phenomena/nav-phenomena.component';
 import { RegisterComponent } from './register/register.component';
-import { CharacterComponent } from './character/character.component';
 import { TopoComponent } from './topo/topo.component';
 import { Error404Component } from './pages/error404/error404.component';
+import { CharacterComponent } from './pages/character/character.component';
+import { AliensComponent } from './pages/aliens/aliens.component';
+import { PicturesComponent } from './pages/pictures/pictures.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { Error404Component } from './pages/error404/error404.component';
     RegisterComponent,
     CharacterComponent,
     TopoComponent,
-    Error404Component
+    Error404Component,
+    AliensComponent,
+    PicturesComponent
   ],
   imports: [
     BrowserModule,

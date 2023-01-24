@@ -1,0 +1,138 @@
+
+        @font-face {
+            font-family: 'monster';
+            src: url('src/fonts/Melted Monster.ttf') format('truetype');
+          }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: rgb(49, 47, 47) repeat-y; 
+            
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #container {
+            width: 900px;
+            height: 1400px;
+            margin: auto;
+            background: black  url("/assets/images/f0FH9Er.webp") ;
+
+
+        }
+
+        #topo {
+            background: black;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+
+        #topo h1 {
+            font-family: 'monster';
+            text-align: center;
+            color: white;
+        }
+
+        
+        #menu-navegacao{
+            height: 60px;
+            margin: 0 10px 10px 10px;
+            background: rgb(63, 60, 60);
+        }
+
+        
+        #menu-navegacao ul {
+            padding: 0;
+            list-style: none;
+            margin: 24px 0 200px 260px;
+        }
+
+        #menu-navegacao a:hover {
+            color: rgba(212, 175, 55);
+        }
+
+        #menu-navegacao li {
+            display: inline;
+        }
+
+      #menu-navegacao a {
+            font-family: 'monster';
+            text-decoration: none;
+            color: white;
+            background: black;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #conteudo {
+            margin: auto;
+            width: 95%;
+            height: 41%;
+            background: rgba(20, 2, 83, 0.4);
+           
+        }
+
+        .fotoAlien {
+            height: 265px;
+            width: 265px;
+            float: right;
+            margin: 10px;
+        }
+
+        .fotoAlien img {
+            height: 100%;
+        }
+
+        #alienTrans {
+            height: 600px;
+            width: 850px;
+            padding: 25px;
+        }
+
+        @keyframes animacao-alien{
+            from{
+                top:0px;
+                left:0px;
+                width: 100%;
+                height: 100%;
+                border-radius: 0px;
+            }
+            to{
+                top:150px;
+                left:200px;
+                width: 180%;
+                height: 180%;
+                border-radius: 70px;
+            }
+        }
+
+
+        .caixaAlien{
+            height: 265px;
+            width: 265px;
+            float: right;
+            margin: 10px;
+          
+        /*  animation: animacao-alien 5s 1s 2 alternate;*/
+        }
+
+        .caixaAlien img {
+            height: 100%;
+            position: relative;
+            animation-name: animacao-alien;
+            animation-duration: 1.5s;
+            animation-delay: 2s;
+            animation-iteration-count: 4;
+            animation-direction: alternate; 
+        }
+
+
+
+      
+

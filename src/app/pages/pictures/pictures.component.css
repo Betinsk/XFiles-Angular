@@ -1,0 +1,49 @@
+
+        @font-face {
+            font-family: 'monster';
+            src: url('src/fonts/Melted Monster.ttf') format('truetype');
+          }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: rgb(49, 47, 47) repeat-y; 
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #container {
+            width: 900px;
+            height: 1400px;
+            margin: auto;
+            background: black  url("/assets/images/f0FH9Er.webp") ;
+            padding: 2px;
+        }
+
+        #galeria {
+            padding: 19px;
+        }
+
+        .foto {
+            height: 265px;
+            width: 265px;
+            float: right;
+            margin: 10px;
+        }
+
+        .foto img {
+            height: 100%;
+            width: 100%;
+            -webkit-transition: all 1s ease;
+             border-radius: 10px;
+        }
+
+          .foto:hover img {
+            -webkit-transform: scale(1.1);
+           
+          }
+    

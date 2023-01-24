@@ -24,20 +24,6 @@
 
         }
 
-        #topo {
-            background: black;
-            padding: 10px;
-            margin: 10px;
-            
-        }
-
-        #topo h1 {
-            font-family: 'monster';
-            text-align: center;
-            color: white;
-        }
-
-      
         #formu {
             border: 1px solid white;
             height: 650px;
