@@ -1,25 +1,10 @@
-
-# Use the official Node.js image as the base image
-FROM node:18
-
-
-
-# Set the working directory in the container
-WORKDIR /src
-
-COPY package.json .
-COPY package-lock.json .
-
-# Instale as dependências do projeto
-RUN npm install
-
-# Copie o restante dos arquivos para o diretório de trabalho
+FROM node:lts-alpine
+ENV NODE_ENV=production
+WORKDIR /usr/src/app
+COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
+RUN npm install --production --silent && mv node_modules ../
 COPY . .
-
-# Install the application dependencies
-RUN npm install
-
 EXPOSE 4200
-
-# Define the entry point for the container
-CMD ["node", "main.ts"]
+RUN chown -R node /usr/src/app
+USER node
+CMD ["npm", "start"]
