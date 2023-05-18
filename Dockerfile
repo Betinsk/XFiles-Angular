@@ -3,7 +3,7 @@
 FROM node:18
 
 # Set the working directory in the container
-WORKDIR /app
+WORKDIR /src
 
 COPY package.json .
 COPY package-lock.json .
@@ -20,4 +20,4 @@ RUN npm install
 EXPOSE 4200
 
 # Define the entry point for the container
-CMD ["start", "main.ts"]
+CMD ["node", "main.ts"]
