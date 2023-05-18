@@ -20,4 +20,4 @@ RUN npm install
 EXPOSE 4200
 
 # Define the entry point for the container
-CMD ["node", "main.ts"]
+CMD ["node", "index.html"]
