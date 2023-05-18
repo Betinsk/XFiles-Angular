@@ -5,6 +5,7 @@ import { AliensComponent } from './pages/aliens/aliens.component';
 import { CharacterComponent } from './pages/character/character.component';
 import { Error404Component } from './pages/error404/error404.component';
 import { PicturesComponent } from './pages/pictures/pictures.component';
+import { VirusComponent } from './pages/virus/virus.component';
 import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'character', component:CharacterComponent},
   { path: 'pictures', component:PicturesComponent},
   { path: 'aliens', component:AliensComponent},
+  { path: 'virus', component:VirusComponent},
   { path: '**', component: Error404Component}, // Rota errada direciona pra essa rota
 
 

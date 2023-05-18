@@ -12,6 +12,7 @@ import { Error404Component } from './pages/error404/error404.component';
 import { CharacterComponent } from './pages/character/character.component';
 import { AliensComponent } from './pages/aliens/aliens.component';
 import { PicturesComponent } from './pages/pictures/pictures.component';
+import { VirusComponent } from './pages/virus/virus.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PicturesComponent } from './pages/pictures/pictures.component';
     TopoComponent,
     Error404Component,
     AliensComponent,
-    PicturesComponent
+    PicturesComponent,
+    VirusComponent
   ],
   imports: [
     BrowserModule,

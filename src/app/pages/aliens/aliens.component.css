@@ -26,50 +26,6 @@
 
         }
 
-        #topo {
-            background: black;
-            padding: 10px;
-            margin: 10px;
-            
-        }
-
-        #topo h1 {
-            font-family: 'monster';
-            text-align: center;
-            color: white;
-        }
-
-        
-        #menu-navegacao{
-            height: 60px;
-            margin: 0 10px 10px 10px;
-            background: rgb(63, 60, 60);
-        }
-
-        
-        #menu-navegacao ul {
-            padding: 0;
-            list-style: none;
-            margin: 24px 0 200px 260px;
-        }
-
-        #menu-navegacao a:hover {
-            color: rgba(212, 175, 55);
-        }
-
-        #menu-navegacao li {
-            display: inline;
-        }
-
-      #menu-navegacao a {
-            font-family: 'monster';
-            text-decoration: none;
-            color: white;
-            background: black;
-            padding: 10px;
-            border-radius: 10px;
-        }
-
         #conteudo {
             margin: auto;
             width: 95%;
@@ -87,12 +43,15 @@
 
         .fotoAlien img {
             height: 100%;
+            border-radius: 15px;
+
         }
 
         #alienTrans {
             height: 600px;
             width: 850px;
             padding: 25px;
+            
         }
 
         @keyframes animacao-alien{
@@ -130,6 +89,7 @@
             animation-delay: 2s;
             animation-iteration-count: 4;
             animation-direction: alternate; 
+
         }
 
 

@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'monster';
+    src: url('src/fonts/Melted Monster.ttf') format('truetype');
+  } 
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: rgb(0, 0, 0) repeat-y; 
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#container {
+    width: 900px;
+    height: 1500px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#topo {
+    background: black;
+    padding: 150px;
+    margin: 0px;
+    
+}
+
+#topo h1 {
+    font-family: 'monster';
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
